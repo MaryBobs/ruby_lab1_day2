@@ -91,3 +91,7 @@ end
 def calculate_cube_volume(length)
   return length * length * length
 end
+
+def calculate_sphere_volume(radius)
+  return (4.0/3.0 * Math::PI * radius**3).round()
+end
